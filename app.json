@@ -3,6 +3,7 @@
     "name": "quotation_display",
     "slug": "quotation_display",
     "version": "1.0.0",
+    "scheme": "quotation_display",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -23,6 +24,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
